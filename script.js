@@ -18,3 +18,8 @@ const checkWin = ()=>{
 
 
 //game logic
+
+let boxes = document.getElementsByClassName("box");
+Array.from(boxes).forEach(elemnet =>{
+     let boxtext = document.querySelector('.boxtext')
+})
