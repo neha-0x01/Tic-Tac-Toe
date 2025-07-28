@@ -41,11 +41,11 @@ nav ul{
     font-size: 8vw;
     cursor: pointer;
     display: flex;
-    justify-content: center;
+    justify-content : center;
     align-items: center;
 }
 .box:hover{
-    background-color: rgb(242, 234, 250);
+    background-color: rgb(247, 244, 249);
 }
 
 .gameInfo{
@@ -54,7 +54,8 @@ nav ul{
 }
 
 .imgbox img{
-    display: none;
+    width: 0;
+    transition: width 1s ease-in-out;
 }
 
 .br-0{
@@ -68,4 +69,13 @@ nav ul{
 }
 .bb-0{
     border-bottom: 0;
+}
+#reset{
+    padding: 6px 14px;
+    margin: 0 23px;
+    background: #dfb5df;
+    border-radius: 6px;
+    cursor: pointer;
+  
+    font-family:"Work Sans", sans-serif ;
 }
